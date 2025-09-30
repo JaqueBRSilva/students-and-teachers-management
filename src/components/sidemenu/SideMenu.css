@@ -1,0 +1,18 @@
+aside {
+    width: 14rem;
+    height: 100svh;
+    background: var(--lapis-lazuli);
+    padding: 2rem 1.4rem;
+    color: var(--baby-powder);
+}
+
+.side__title-section {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    color: inherit;
+    font-family: var(--font-primary);
+}
+
+.side__nav {
+    font-size: 1.2rem;
+}
