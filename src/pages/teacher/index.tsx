@@ -1,9 +1,12 @@
 import { useParams } from "react-router-dom"
+import App from "../../App"
 
 export function Teacher() {
     const { teacherId } = useParams()
 
     return (
-        <div>Teacher: {teacherId}</div>
+        <App>
+            <div>Teacher: {teacherId}</div>
+        </App>
     )
 }

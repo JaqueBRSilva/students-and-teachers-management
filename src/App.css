@@ -1,7 +1,10 @@
 .app-container {
   display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .main-content {
-  padding: 2rem;
+  padding: 2rem 5rem;
+  margin-left: 12.5rem;
 }

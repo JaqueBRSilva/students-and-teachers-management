@@ -6,6 +6,7 @@ import './index.css'
 import { Home } from './pages/home/index.tsx'
 import { Student } from './pages/student/index.tsx'
 import { Students } from './pages/students/index.tsx'
+import { Teacher } from './pages/teacher/index.tsx'
 import { Teachers } from './pages/teachers/index.tsx'
 
 createRoot(document.getElementById('root')!).render(
@@ -16,7 +17,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Home />} />
         <Route path='/student/:id' element={<Student />} />
         <Route path="/students" element={<Students />} />
-        <Route path="/student/:id" element={<Student />} />
+        <Route path="/teacher/:id" element={<Teacher />} />
         <Route path="/teachers" element={<Teachers />} />
       </Routes>
     </BrowserRouter>

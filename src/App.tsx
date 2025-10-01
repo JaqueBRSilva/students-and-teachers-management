@@ -1,5 +1,5 @@
 import './App.css'
-import { SideMenu } from './components/sidemenu/SideMenu'
+import { SideMenu } from './components/Sidemenu/SideMenu'
 
 function App({ children }: { children?: React.ReactNode }) {
 
