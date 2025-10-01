@@ -1,0 +1,4 @@
+.chart__container {
+    display: flex;
+    place-content: center;
+}
