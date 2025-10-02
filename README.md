@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# Gerenciamento de Estudantes e Professores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- <h3 align="center">
+  <img
+    alt="preview - dashboard do projeto" 
+    src=""
+    width="90%"
+    height=""
+  />
+</h3> -->
 
-Currently, two official plugins are available:
+<!-- <br/> -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- <p>
+  
+</p> -->
 
-## React Compiler
+<!-- <br/> -->
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<!-- ## Demonstração
 
-## Expanding the ESLint configuration
+- [Visite o Site]() -->
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<br/>
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Baixar & Testar
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. Instale o [Node.js](https://nodejs.org/en/) na máquina, versão **LTS**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. O [Git](https://git-scm.com) é _opcional_ de se ter instalado na máquina. O projeto também pode ser baixado diretamente como `.zip`
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. Entre no diretório `students-and-teachers-management` e instale as dependências do projeto.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+    ```bash
+    npm install
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+4. Para rodar o Front-end, digite:
+
+    ```bash
+    npm run dev
+    ```
+
+5. Em um terminal separado, para rodar o servidor, digite:
+
+    ```bash
+    npm run json
+    ```
+
+6. Agora o projeto poderá ser testado
+
+<br/>
+
+## Ferramentas & Tecnologias Usadas
+
+- [React.js](https://vite.dev/guide/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS](https://www.w3.org/Style/CSS/)
+- [Axios](https://axios-http.com/ptbr/)
+
+### Rodar arquivos `json` localmente
+- [json server](https://github.com/typicode/json-server)
+
+<br/>
+
+# 🔓 LICENÇA
+## 👉 [Apache License 2.0](./LICENSE.md)
+_Uma licença permissiva cujas principais condições exigem a preservação dos direitos autorais e dos avisos de licença. Os contribuidores concedem expressamente os direitos de patente. Obras licenciadas, modificações e obras maiores podem ser distribuídas sob termos diferentes e sem código-fonte._
+
+### Permissões
+ ✔️ Uso Comercial ● ✔️ Modificação ● ✔️ Distribuição ● <br/>
+ ✔️ Uso de Patente ● ✔️ Uso Privado
+
+### Limitações  <br />
+ ❌ Responsabilidade ● ❌ Garantia
+
+### Condições
+ ❗ Licença e aviso de direitos autorais ● ❗ Alterações de Estado
